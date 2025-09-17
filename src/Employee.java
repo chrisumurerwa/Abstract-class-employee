@@ -1,16 +1,16 @@
- public   class Employee {
-    private String employeeName;
+// Abstract class
+public abstract class Employee {
+    protected String employeeName;
 
-}
-public Employee(String employeeName){
-  this.employeeName = employeeName;
+    public Employee(String employeeName) {
+        this.employeeName = employeeName;
+    }
 
-}
-public String getEmployeeName(){
-    return employeeName();
+    public String getEmployeeName() {
+        return employeeName;
+    }
 
-}
-
-public Abstract double calculateSalary();
-public  abstract void displayInfo();
+    // Abstract methods
+    public abstract double calculateSalary();
+    public abstract void displayInfo();
 }
