@@ -1,9 +1,10 @@
 class  manager extends  Employee {
 
-    private employeeName;
-   public  manager (String employeeName){
+    private  double salary;
+    private double bonus;
+   public  manager (String employeeName,double salary, double bonus){
        super(employeeName)
-       this.employeeName = "employeeName";
+       this.salary = salary;
    }
 
 @Override

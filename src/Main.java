@@ -2,9 +2,10 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-    Manager = new Manager("Umurerwa" ,20)
-    Programmer = new Programmer("jojo" ,javascripts)
+    Manager manager = new Manager ( "Umurerwa",20);
+    Programmer programmer = new Programmer("jojo" ,javascripts)
 
         }
+        manager.calculateSalary();
+        Programmer.calculateSalary();
     }
-}

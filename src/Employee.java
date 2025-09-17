@@ -1,16 +1,16 @@
-Abstract  class Employee {
-    public  String employeeName;
+ public   class Employee {
+    private String employeeName;
 
 }
 public Employee(String employeeName){
   this.employeeName = employeeName;
 
 }
-public String CalculateSalary(){
-    return Salary();
-    void.display();
-    System.out.println(String Salary);
+public String getEmployeeName(){
+    return employeeName();
+
 }
 
-public Abstract void  calculateSalary();
+public Abstract double calculateSalary();
+public  abstract void displayInfo();
 }

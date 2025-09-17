@@ -1,12 +1,14 @@
- class Programmer extends Employee {
-    private String employeeName;
+// Programmer.java
+public class Programmer extends Employee {
+    private String programmingLanguage;
 
-    public  Programmer(String employeeName){
-      super(employeeName);
-      this.employeeName = "employeeName"
+    public Programmer(String employeeName, String programmingLanguage) {
+        super(employeeName);   // call Employee constructor
+        this.programmingLanguage = programmingLanguage;
     }
-   @Override
-     public void calculateSalary()
-    system.out.println("employeeName : + is codding" + in programming language +"." );
 
+    @Override
+    public void calculateSalary() {
+        System.out.println(getEmployeeName() + " is coding in " + programmingLanguage + ".");
+    }
 }
