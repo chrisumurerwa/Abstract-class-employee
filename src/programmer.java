@@ -1,7 +1,7 @@
- class programmer extends Employee {
+ class Programmer extends Employee {
     private String employeeName;
 
-    public  programmer(String employeeName){
+    public  Programmer(String employeeName){
       super(employeeName);
       this.employeeName = "employeeName"
     }
