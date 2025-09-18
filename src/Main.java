@@ -1,11 +1,9 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+
+
 public class Main {
     public static void main(String[] args) {
-    Manager manager = new Manager ( "Umurerwa",20);
-    Programmer programmer = new Programmer("jojo" ,javascripts)
-
-        }
-        manager.calculateSalary();
-        Programmer.calculateSalary();
+        new Manager("Alice", 5000, 1200).displayInfo();
+        new Programmer("Bob", 160, 25).displayInfo();
     }
+        }

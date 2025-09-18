@@ -1,13 +1,9 @@
-// Abstract class
-public abstract class Employee {
-    protected String employeeName;
+abstract class Employee {
+    protected String name;
 
-    public Employee(String employeeName) {
-        this.employeeName = employeeName;
-    }
-
-    public String getEmployeeName() {
-        return employeeName;
+    // Constructor
+    public Employee(String name) {
+        this.name = name;
     }
 
     // Abstract methods
