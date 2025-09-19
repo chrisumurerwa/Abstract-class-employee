@@ -1,11 +1,9 @@
 
-
-
 class Manager extends Employee {
-    double base;
-    double bonus;
+    int base;
+    int bonus;
 
-    Manager(String name, double base, double bonus) {
+    Manager(String name, int base, int bonus) {
         super(name);
         this.base = base;
         this.bonus = bonus;
@@ -13,7 +11,16 @@ class Manager extends Employee {
 
     @Override
     public double calculateSalary() {
-        return base + bonus;
+        int answer =0;
+        try{
+
+            answer =  base / bonus;
+
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        return  answer;
     }
 
     @Override
@@ -21,4 +28,3 @@ class Manager extends Employee {
         System.out.println("Manager: " + name + " | Salary: " + calculateSalary());
     }
 }
-

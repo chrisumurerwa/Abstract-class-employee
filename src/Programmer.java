@@ -1,5 +1,5 @@
 
- class Programmer extends Employee {
+class Programmer extends Employee {
      int hours;
      double rate;
 

@@ -1,3 +1,7 @@
+
+
+
+// Abstract parent class
 abstract class Employee {
     protected String name;
 
@@ -10,3 +14,4 @@ abstract class Employee {
     public abstract double calculateSalary();
     public abstract void displayInfo();
 }
+
